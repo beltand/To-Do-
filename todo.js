@@ -34,3 +34,5 @@ form.addEventListener('submit', function(e){
     input.value = '';
 });
 
+localStorage.setItem = ('listItem', JSON.stringify);
+localStorage.getItem = ('listItem', JSON.parse);
